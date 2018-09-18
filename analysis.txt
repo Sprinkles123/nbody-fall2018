@@ -1,0 +1,39 @@
+This is analysis.txt
+Replace this line with your name
+Replace this line with your netid
+
+Copy/paste the output of your simulation when using planets.txt,
+running the simulation for 1,000,000 (one  million) seconds, and
+with a time-step/dt value of 25,000
+
+5
+2.50e+11
+ 1.4657e+11  2.9604e+10 -5.8931e+03  2.9226e+04  5.9740e+24    earth.gif
+ 2.2659e+11  2.4055e+10 -2.5502e+03  2.3968e+04  6.4190e+23     mars.gif
+ 3.8636e+10  4.2569e+10 -3.5575e+04  3.2587e+04  3.3020e+23  mercury.gif
+ 2.6827e+04  2.9792e+03  5.1739e-02  8.6585e-03  1.9890e+30      sun.gif
+ 1.0244e+11  3.4391e+10 -1.1156e+04  3.3224e+04  4.8690e+24    venus.gif
+
+Copy/paste the output of your simulation when using planets.txt,
+running the simulation for 2,000,000 (one  million) seconds, and
+with a time-step/dt value of 25,000
+
+5
+2.50e+11
+ 1.3774e+11  5.8036e+10 -1.1560e+04  2.7494e+04  5.9740e+24    earth.gif
+ 2.2275e+11  4.7841e+10 -5.0730e+03  2.3568e+04  6.4190e+23     mars.gif
+-5.9865e+09  5.7090e+10 -4.8116e+04 -4.4176e+03  3.3020e+23  mercury.gif
+ 1.0223e+05  2.3000e+04  9.6223e-02  3.2991e-02  1.9890e+30      sun.gif
+ 8.5997e+10  6.5196e+10 -2.1191e+04  2.7971e+04  4.8690e+24    venus.gif
+
+Run the simulation for a billion seconds (10^9) and a time-step/dt
+of a million. You should see behavior inconsistent with what is
+expected for celestial bodies. This is due to large values of dt
+when approximating forces. Write down below what you see during
+this simulation.
+
+All of the celestial bodies with the exception of the sun underwent great deviation from their typical orbital behavior.
+The orbits of the celestial bodies started to appears more elliptical than usual and during their orbits their distance 
+from the sun appeared to fluctuate greatly. In fact, Venus seams to have completely escape from the sun's gravitational pull as
+its gif image doesn't appear in it the draw file at all.It also significant that during some portions of the animation some of the 
+bodies appear to have collided with each other.
