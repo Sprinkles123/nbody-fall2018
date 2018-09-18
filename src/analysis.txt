@@ -1,6 +1,6 @@
 This is analysis.txt
-Replace this line with your name
-Replace this line with your netid
+Replace this line with your Fritz Thelusca
+Replace this line with your ft34
 
 Copy/paste the output of your simulation when using planets.txt,
 running the simulation for 1,000,000 (one  million) seconds, and
