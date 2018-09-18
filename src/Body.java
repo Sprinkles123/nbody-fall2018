@@ -57,7 +57,7 @@ public double getMass() {
  * Return filename of image for object animation
  * @return gif of the image of the object
  */
-String getName() { 
+public String getName() { 
 	return myFileName; }
 /**
  * Copy constructor: copy instance variables from one body to this body
